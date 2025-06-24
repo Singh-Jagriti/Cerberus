@@ -4,30 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="254e8bec-1f33-4774-b55a-7c696cf32a4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Cerberus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/api_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/db_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/api_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/db_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/ui_login_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/ui_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/ui_login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/ui_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/api_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/browser_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db_utils.py" afterDir="false" />
+    <list default="true" id="254e8bec-1f33-4774-b55a-7c696cf32a4c" name="Changes" comment="Fix UI login and form submission tests, stabilize all features">
+      <change afterPath="$PROJECT_DIR$/features/steps/ui_playwright_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/ui_playwright_test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/base_playwright_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/playwright_form_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/playwright_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/ui_login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/ui_login_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/ui_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/ui_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Singh-Jagriti&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Singh-Jagriti/Cerberus&quot;,
+    &quot;accountId&quot;: &quot;04554fe5-abcb-43b9-a60a-11792a33c578&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -55,15 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Run All Behave Tests.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Run All Behave Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\singh\PycharmProjects\Cerberus\utils" />
@@ -136,7 +133,20 @@
       <option name="presentableId" value="Default" />
       <updated>1749954446150</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fix UI login and form submission tests, stabilize all features">
+      <option name="closed" value="true" />
+      <created>1750041195374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750041195374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix UI login and form submission tests, stabilize all features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix UI login and form submission tests, stabilize all features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

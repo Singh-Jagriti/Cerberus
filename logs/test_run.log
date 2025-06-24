@@ -1,0 +1,295 @@
+2025-06-15 20:25:33,329 - BehaveFramework - INFO - --- Test Run Started ---
+2025-06-15 20:25:34,902 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:25:34,903 - BehaveFramework - INFO - Browser initialized and ready.
+2025-06-15 20:25:34,904 - BehaveFramework.DBUtils - INFO - Connected to database: test_users.db
+2025-06-15 20:25:34,905 - BehaveFramework.DBUtils - INFO - Ensured 'users' table exists.
+2025-06-15 20:25:34,905 - BehaveFramework.DBUtils - INFO - Attempting to add dummy data to 'users' table.
+2025-06-15 20:25:34,906 - BehaveFramework.DBUtils - INFO - Dummy data added/ensured in 'users' table.
+2025-06-15 20:25:34,906 - BehaveFramework.DBUtils - INFO - Public method create_users_table called.
+2025-06-15 20:25:34,907 - BehaveFramework - INFO - Database initialized and tables ensured.
+2025-06-15 20:25:34,907 - BehaveFramework.APIUtils - INFO - APIUtils initialized with base_url: https://jsonplaceholder.typicode.com
+2025-06-15 20:25:34,907 - BehaveFramework - INFO - API client initialized with base URL: https://jsonplaceholder.typicode.com.
+2025-06-15 20:25:34,907 - BehaveFramework.Pages.LoginPage - INFO - LoginPage object initialized.
+2025-06-15 20:25:34,908 - BehaveFramework - INFO - Page Objects initialized.
+2025-06-15 20:25:34,910 - BehaveFramework - INFO - --- Starting Feature: API GET request validation ---
+2025-06-15 20:25:34,910 - BehaveFramework - INFO - Starting Scenario: Validate JSONPlaceholder GET response
+2025-06-15 20:25:34,912 - BehaveFramework.APIUtils - INFO - Sending GET request to: https://jsonplaceholder.typicode.com/posts/1 with params: None
+2025-06-15 20:25:34,998 - BehaveFramework.APIUtils - INFO - GET response received. Status: 200
+2025-06-15 20:25:34,999 - BehaveFramework - INFO - Finished Scenario: Validate JSONPlaceholder GET response - Status: Status.passed
+2025-06-15 20:25:34,999 - BehaveFramework - INFO - --- Finished Feature: API GET request validation ---
+2025-06-15 20:25:34,999 - BehaveFramework - INFO - --- Starting Feature: Validate data in database ---
+2025-06-15 20:25:35,000 - BehaveFramework - INFO - Starting Scenario: Check if user exists in the database
+2025-06-15 20:25:35,001 - BehaveFramework.DBUtils - INFO - Fetching user by ID: 1
+2025-06-15 20:25:35,002 - BehaveFramework - INFO - Finished Scenario: Check if user exists in the database - Status: Status.passed
+2025-06-15 20:25:35,002 - BehaveFramework - INFO - --- Finished Feature: Validate data in database ---
+2025-06-15 20:25:35,002 - BehaveFramework - INFO - --- Starting Feature: Web UI form submission ---
+2025-06-15 20:25:35,002 - BehaveFramework - INFO - Starting Scenario: Fill and submit a form
+2025-06-15 20:25:36,431 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:25:36,432 - BehaveFramework.BrowserUtils - INFO - Opening URL: https://demoqa.com/text-box
+2025-06-15 20:25:38,484 - BehaveFramework.BrowserUtils - INFO - Entered text 'Jagriti Singh' into ('id', 'userName')
+2025-06-15 20:25:38,746 - BehaveFramework.BrowserUtils - INFO - Entered text 'jagriti@example.com' into ('id', 'userEmail')
+2025-06-15 20:25:38,915 - BehaveFramework.BrowserUtils - INFO - Entered text '123 Maple Street' into ('id', 'currentAddress')
+2025-06-15 20:25:39,073 - BehaveFramework.BrowserUtils - INFO - Entered text '456 Oak Avenue' into ('id', 'permanentAddress')
+2025-06-15 20:25:39,073 - BehaveFramework.BrowserUtils - INFO - Form fields filled.
+2025-06-15 20:25:39,100 - BehaveFramework.BrowserUtils - INFO - Scrolled to submit button.
+2025-06-15 20:25:40,196 - BehaveFramework.BrowserUtils - INFO - Clicked element: ('id', 'submit')
+2025-06-15 20:25:40,196 - BehaveFramework.BrowserUtils - INFO - Submit button clicked.
+2025-06-15 20:25:40,241 - BehaveFramework.BrowserUtils - INFO - Retrieved confirmation name: 'Name:Jagriti Singh'
+2025-06-15 20:25:42,508 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:25:42,509 - BehaveFramework - INFO - Finished Scenario: Fill and submit a form - Status: Status.passed
+2025-06-15 20:25:46,577 - BehaveFramework - INFO - --- Finished Feature: Web UI form submission ---
+2025-06-15 20:25:46,577 - BehaveFramework - INFO - --- Test Run Finished ---
+2025-06-15 20:25:48,863 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:25:48,863 - BehaveFramework - INFO - Browser closed.
+2025-06-15 20:25:48,863 - BehaveFramework.DBUtils - INFO - Database connection to test_users.db closed.
+2025-06-15 20:25:48,863 - BehaveFramework - INFO - Database connection closed.
+2025-06-15 20:41:12,649 - BehaveFramework - INFO - --- Test Run Started ---
+2025-06-15 20:41:15,102 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:41:15,102 - BehaveFramework - INFO - Browser initialized and ready.
+2025-06-15 20:41:15,111 - BehaveFramework.DBUtils - INFO - Connected to database: test_users.db
+2025-06-15 20:41:15,121 - BehaveFramework.DBUtils - INFO - Ensured 'users' table exists.
+2025-06-15 20:41:15,121 - BehaveFramework.DBUtils - INFO - Attempting to add dummy data to 'users' table.
+2025-06-15 20:41:15,122 - BehaveFramework.DBUtils - INFO - Dummy data added/ensured in 'users' table.
+2025-06-15 20:41:15,122 - BehaveFramework.DBUtils - INFO - Public method create_users_table called.
+2025-06-15 20:41:15,122 - BehaveFramework - INFO - Database initialized and tables ensured.
+2025-06-15 20:41:15,122 - BehaveFramework.APIUtils - INFO - APIUtils initialized with base_url: https://jsonplaceholder.typicode.com
+2025-06-15 20:41:15,122 - BehaveFramework - INFO - API client initialized with base URL: https://jsonplaceholder.typicode.com.
+2025-06-15 20:41:15,123 - BehaveFramework.Pages.LoginPage - INFO - LoginPage object initialized.
+2025-06-15 20:41:15,123 - BehaveFramework - INFO - Page Objects initialized.
+2025-06-15 20:41:15,126 - BehaveFramework - INFO - --- Starting Feature: API GET request validation ---
+2025-06-15 20:41:15,126 - BehaveFramework - INFO - Starting Scenario: Validate JSONPlaceholder GET response
+2025-06-15 20:41:15,128 - BehaveFramework.api_steps - INFO - API endpoint set to: https://jsonplaceholder.typicode.com/posts/1
+2025-06-15 20:41:15,129 - BehaveFramework.APIUtils - INFO - Sending GET request to: https://jsonplaceholder.typicode.com/posts/1 with params: None
+2025-06-15 20:41:15,273 - BehaveFramework.APIUtils - INFO - GET response received. Status: 200
+2025-06-15 20:41:15,273 - BehaveFramework.api_steps - INFO - GET request sent.
+2025-06-15 20:41:15,275 - BehaveFramework - INFO - Finished Scenario: Validate JSONPlaceholder GET response - Status: Status.passed
+2025-06-15 20:41:15,275 - BehaveFramework - INFO - --- Finished Feature: API GET request validation ---
+2025-06-15 20:41:15,275 - BehaveFramework - INFO - --- Starting Feature: Validate data in database ---
+2025-06-15 20:41:15,276 - BehaveFramework - INFO - Starting Scenario: Check if user exists in the database
+2025-06-15 20:41:15,279 - BehaveFramework.DBUtils - INFO - Fetching user by ID: 1
+2025-06-15 20:41:15,280 - BehaveFramework - INFO - Finished Scenario: Check if user exists in the database - Status: Status.passed
+2025-06-15 20:41:15,280 - BehaveFramework - INFO - --- Finished Feature: Validate data in database ---
+2025-06-15 20:41:15,280 - BehaveFramework - INFO - --- Starting Feature: Web UI form submission ---
+2025-06-15 20:41:15,280 - BehaveFramework - INFO - Starting Scenario: Fill and submit a form
+2025-06-15 20:41:16,804 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:41:16,804 - BehaveFramework.BrowserUtils - INFO - Opening URL: https://demoqa.com/text-box
+2025-06-15 20:41:23,892 - BehaveFramework.BrowserUtils - INFO - Entered text 'Jagriti Singh' into ('id', 'userName')
+2025-06-15 20:41:24,067 - BehaveFramework.BrowserUtils - INFO - Entered text 'jagriti@example.com' into ('id', 'userEmail')
+2025-06-15 20:41:24,207 - BehaveFramework.BrowserUtils - INFO - Entered text '123 Maple Street' into ('id', 'currentAddress')
+2025-06-15 20:41:24,369 - BehaveFramework.BrowserUtils - INFO - Entered text '456 Oak Avenue' into ('id', 'permanentAddress')
+2025-06-15 20:41:24,369 - BehaveFramework.BrowserUtils - INFO - Form fields filled.
+2025-06-15 20:41:24,394 - BehaveFramework.BrowserUtils - INFO - Scrolled to submit button.
+2025-06-15 20:41:25,534 - BehaveFramework.BrowserUtils - INFO - Clicked element: ('id', 'submit')
+2025-06-15 20:41:25,535 - BehaveFramework.BrowserUtils - INFO - Submit button clicked.
+2025-06-15 20:41:25,593 - BehaveFramework.BrowserUtils - INFO - Retrieved confirmation name: 'Name:Jagriti Singh'
+2025-06-15 20:41:27,947 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:41:27,947 - BehaveFramework - INFO - Finished Scenario: Fill and submit a form - Status: Status.passed
+2025-06-15 20:41:31,993 - BehaveFramework - INFO - --- Finished Feature: Web UI form submission ---
+2025-06-15 20:41:31,993 - BehaveFramework - INFO - --- Test Run Finished ---
+2025-06-15 20:41:34,257 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:41:34,257 - BehaveFramework - INFO - Browser closed.
+2025-06-15 20:41:34,259 - BehaveFramework.DBUtils - INFO - Database connection to test_users.db closed.
+2025-06-15 20:41:34,259 - BehaveFramework - INFO - Database connection closed.
+2025-06-15 20:44:00,905 - BehaveFramework - INFO - --- Test Run Started ---
+2025-06-15 20:44:02,927 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:44:02,927 - BehaveFramework - INFO - Browser initialized and ready.
+2025-06-15 20:44:02,928 - BehaveFramework.DBUtils - INFO - Connected to database: test_users.db
+2025-06-15 20:44:02,929 - BehaveFramework.DBUtils - INFO - Ensured 'users' table exists.
+2025-06-15 20:44:02,929 - BehaveFramework.DBUtils - INFO - Attempting to add dummy data to 'users' table.
+2025-06-15 20:44:02,929 - BehaveFramework.DBUtils - INFO - Dummy data added/ensured in 'users' table.
+2025-06-15 20:44:02,929 - BehaveFramework.DBUtils - INFO - Public method create_users_table called.
+2025-06-15 20:44:02,929 - BehaveFramework - INFO - Database initialized and tables ensured.
+2025-06-15 20:44:02,930 - BehaveFramework.APIUtils - INFO - APIUtils initialized with base_url: https://jsonplaceholder.typicode.com
+2025-06-15 20:44:02,930 - BehaveFramework - INFO - API client initialized with base URL: https://jsonplaceholder.typicode.com.
+2025-06-15 20:44:02,930 - BehaveFramework.Pages.LoginPage - INFO - LoginPage object initialized.
+2025-06-15 20:44:02,930 - BehaveFramework - INFO - Page Objects initialized.
+2025-06-15 20:44:02,931 - BehaveFramework - INFO - --- Starting Feature: API GET request validation ---
+2025-06-15 20:44:02,931 - BehaveFramework - INFO - Starting Scenario: Validate JSONPlaceholder GET response
+2025-06-15 20:44:02,933 - BehaveFramework.api_steps - INFO - API endpoint set to: https://jsonplaceholder.typicode.com/posts/1
+2025-06-15 20:44:02,934 - BehaveFramework.APIUtils - INFO - Sending GET request to: https://jsonplaceholder.typicode.com/posts/1 with params: None
+2025-06-15 20:44:03,029 - BehaveFramework.APIUtils - INFO - GET response received. Status: 200
+2025-06-15 20:44:03,029 - BehaveFramework.api_steps - INFO - GET request sent.
+2025-06-15 20:44:03,030 - BehaveFramework - INFO - Finished Scenario: Validate JSONPlaceholder GET response - Status: Status.passed
+2025-06-15 20:44:03,031 - BehaveFramework - INFO - --- Finished Feature: API GET request validation ---
+2025-06-15 20:44:03,031 - BehaveFramework - INFO - --- Starting Feature: Validate data in database ---
+2025-06-15 20:44:03,031 - BehaveFramework - INFO - Starting Scenario: Check if user exists in the database
+2025-06-15 20:44:03,034 - BehaveFramework.DBUtils - INFO - Fetching user by ID: 1
+2025-06-15 20:44:03,035 - BehaveFramework - INFO - Finished Scenario: Check if user exists in the database - Status: Status.passed
+2025-06-15 20:44:03,035 - BehaveFramework - INFO - --- Finished Feature: Validate data in database ---
+2025-06-15 20:44:03,035 - BehaveFramework - INFO - --- Starting Feature: User Login to Web Application ---
+2025-06-15 20:44:03,036 - BehaveFramework - INFO - Starting Scenario: Successful login with valid credentials
+2025-06-15 20:44:03,036 - BehaveFramework.Pages.LoginPage - INFO - Opening URL: https://demoqa.com/login
+2025-06-15 20:44:05,073 - BehaveFramework.Pages.LoginPage - INFO - Successfully opened URL: https://demoqa.com/login
+2025-06-15 20:44:05,073 - BehaveFramework.Pages.LoginPage - INFO - Navigated to Login Page: https://demoqa.com/login
+2025-06-15 20:44:05,074 - BehaveFramework.ui_login_steps - INFO - Navigated to the login page: https://demoqa.com/login
+2025-06-15 20:44:05,358 - BehaveFramework.Pages.LoginPage - INFO - Entered text 'Test User' into ('id', 'userName')
+2025-06-15 20:44:20,386 - BehaveFramework.Pages.LoginPage - ERROR - Timeout: Element not visible after 15.0 seconds for text entry: ('id', 'userEmail')
+2025-06-15 20:44:20,417 - BehaveFramework - INFO - Finished Scenario: Successful login with valid credentials - Status: Status.failed
+2025-06-15 20:44:20,417 - BehaveFramework - INFO - --- Finished Feature: User Login to Web Application ---
+2025-06-15 20:44:20,417 - BehaveFramework - INFO - --- Starting Feature: Web UI form submission ---
+2025-06-15 20:44:20,417 - BehaveFramework - INFO - Starting Scenario: Fill and submit a form
+2025-06-15 20:44:22,063 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:44:22,066 - BehaveFramework.BrowserUtils - INFO - Opening URL: https://demoqa.com/text-box
+2025-06-15 20:44:27,295 - BehaveFramework.BrowserUtils - INFO - Entered text 'Jagriti Singh' into ('id', 'userName')
+2025-06-15 20:44:27,458 - BehaveFramework.BrowserUtils - INFO - Entered text 'jagriti@example.com' into ('id', 'userEmail')
+2025-06-15 20:44:27,633 - BehaveFramework.BrowserUtils - INFO - Entered text '123 Maple Street' into ('id', 'currentAddress')
+2025-06-15 20:44:27,774 - BehaveFramework.BrowserUtils - INFO - Entered text '456 Oak Avenue' into ('id', 'permanentAddress')
+2025-06-15 20:44:27,774 - BehaveFramework.BrowserUtils - INFO - Form fields filled.
+2025-06-15 20:44:27,807 - BehaveFramework.BrowserUtils - INFO - Scrolled to submit button.
+2025-06-15 20:44:28,888 - BehaveFramework.BrowserUtils - INFO - Clicked element: ('id', 'submit')
+2025-06-15 20:44:28,889 - BehaveFramework.BrowserUtils - INFO - Submit button clicked.
+2025-06-15 20:44:28,934 - BehaveFramework.BrowserUtils - INFO - Retrieved confirmation name: 'Name:Jagriti Singh'
+2025-06-15 20:44:31,180 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:44:31,180 - BehaveFramework - INFO - Finished Scenario: Fill and submit a form - Status: Status.passed
+2025-06-15 20:44:35,248 - BehaveFramework - INFO - --- Finished Feature: Web UI form submission ---
+2025-06-15 20:44:35,249 - BehaveFramework - INFO - --- Test Run Finished ---
+2025-06-15 20:44:37,475 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:44:37,475 - BehaveFramework - INFO - Browser closed.
+2025-06-15 20:44:37,475 - BehaveFramework.DBUtils - INFO - Database connection to test_users.db closed.
+2025-06-15 20:44:37,476 - BehaveFramework - INFO - Database connection closed.
+2025-06-15 20:46:48,194 - BehaveFramework - INFO - --- Test Run Started ---
+2025-06-15 20:46:49,730 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:46:49,731 - BehaveFramework - INFO - Browser initialized and ready.
+2025-06-15 20:46:49,732 - BehaveFramework.DBUtils - INFO - Connected to database: test_users.db
+2025-06-15 20:46:49,733 - BehaveFramework.DBUtils - INFO - Ensured 'users' table exists.
+2025-06-15 20:46:49,733 - BehaveFramework.DBUtils - INFO - Attempting to add dummy data to 'users' table.
+2025-06-15 20:46:49,733 - BehaveFramework.DBUtils - INFO - Dummy data added/ensured in 'users' table.
+2025-06-15 20:46:49,733 - BehaveFramework.DBUtils - INFO - Public method create_users_table called.
+2025-06-15 20:46:49,733 - BehaveFramework - INFO - Database initialized and tables ensured.
+2025-06-15 20:46:49,733 - BehaveFramework.APIUtils - INFO - APIUtils initialized with base_url: https://jsonplaceholder.typicode.com
+2025-06-15 20:46:49,733 - BehaveFramework - INFO - API client initialized with base URL: https://jsonplaceholder.typicode.com.
+2025-06-15 20:46:49,733 - BehaveFramework.Pages.LoginPage - INFO - LoginPage object initialized.
+2025-06-15 20:46:49,734 - BehaveFramework - INFO - Page Objects initialized.
+2025-06-15 20:46:49,734 - BehaveFramework - INFO - --- Starting Feature: API GET request validation ---
+2025-06-15 20:46:49,734 - BehaveFramework - INFO - Starting Scenario: Validate JSONPlaceholder GET response
+2025-06-15 20:46:49,735 - BehaveFramework.api_steps - INFO - API endpoint set to: https://jsonplaceholder.typicode.com/posts/1
+2025-06-15 20:46:49,736 - BehaveFramework.APIUtils - INFO - Sending GET request to: https://jsonplaceholder.typicode.com/posts/1 with params: None
+2025-06-15 20:46:49,857 - BehaveFramework.APIUtils - INFO - GET response received. Status: 200
+2025-06-15 20:46:49,858 - BehaveFramework.api_steps - INFO - GET request sent.
+2025-06-15 20:46:49,859 - BehaveFramework - INFO - Finished Scenario: Validate JSONPlaceholder GET response - Status: Status.passed
+2025-06-15 20:46:49,859 - BehaveFramework - INFO - --- Finished Feature: API GET request validation ---
+2025-06-15 20:46:49,859 - BehaveFramework - INFO - --- Starting Feature: Validate data in database ---
+2025-06-15 20:46:49,859 - BehaveFramework - INFO - Starting Scenario: Check if user exists in the database
+2025-06-15 20:46:49,862 - BehaveFramework.DBUtils - INFO - Fetching user by ID: 1
+2025-06-15 20:46:49,863 - BehaveFramework - INFO - Finished Scenario: Check if user exists in the database - Status: Status.passed
+2025-06-15 20:46:49,864 - BehaveFramework - INFO - --- Finished Feature: Validate data in database ---
+2025-06-15 20:46:49,864 - BehaveFramework - INFO - --- Starting Feature: User Login to Web Application ---
+2025-06-15 20:46:49,864 - BehaveFramework - INFO - Starting Scenario: Successful login with valid credentials
+2025-06-15 20:46:49,864 - BehaveFramework.Pages.LoginPage - INFO - Opening URL: https://demoqa.com/login
+2025-06-15 20:46:57,624 - BehaveFramework.Pages.LoginPage - INFO - Successfully opened URL: https://demoqa.com/login
+2025-06-15 20:46:57,624 - BehaveFramework.Pages.LoginPage - INFO - Navigated to Login Page: https://demoqa.com/login
+2025-06-15 20:46:57,624 - BehaveFramework.ui_login_steps - INFO - Navigated to the login page: https://demoqa.com/login
+2025-06-15 20:46:57,626 - BehaveFramework.Pages.LoginPage - INFO - Attempting to log in with username: testuser
+2025-06-15 20:46:57,806 - BehaveFramework.Pages.LoginPage - INFO - Entered text 'testuser' into ('id', 'userName')
+2025-06-15 20:46:57,993 - BehaveFramework.Pages.LoginPage - INFO - Entered text 'Password123!' into ('id', 'password')
+2025-06-15 20:46:59,131 - BehaveFramework.Pages.LoginPage - ERROR - Error clicking element ('id', 'login'): Message: element click intercepted: Element <button id="login" type="button" class="btn btn-primary">...</button> is not clickable at point (960, 610). Other element would receive the click: <iframe frameborder="0" src="https://01e02519809d3cc8a4a950608c645dd4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7a0dbfe75+79173]
+	GetHandleVerifier [0x0x7ff7a0dbfed0+79264]
+	(No symbol) [0x0x7ff7a0b79e5a]
+	(No symbol) [0x0x7ff7a0bd8599]
+	(No symbol) [0x0x7ff7a0bd5f32]
+	(No symbol) [0x0x7ff7a0bd2f71]
+	(No symbol) [0x0x7ff7a0bd1e61]
+	(No symbol) [0x0x7ff7a0bc3464]
+	(No symbol) [0x0x7ff7a0bf896a]
+	(No symbol) [0x0x7ff7a0bc2d16]
+	(No symbol) [0x0x7ff7a0bf8b80]
+	(No symbol) [0x0x7ff7a0c2100d]
+	(No symbol) [0x0x7ff7a0bf8743]
+	(No symbol) [0x0x7ff7a0bc14c1]
+	(No symbol) [0x0x7ff7a0bc2253]
+	GetHandleVerifier [0x0x7ff7a108a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7a10846fd+2981325]
+	GetHandleVerifier [0x0x7ff7a10a3350+3107360]
+	GetHandleVerifier [0x0x7ff7a0dda9fe+188622]
+	GetHandleVerifier [0x0x7ff7a0de228f+219487]
+	GetHandleVerifier [0x0x7ff7a0dc8dc4+115860]
+	GetHandleVerifier [0x0x7ff7a0dc8f79+116297]
+	GetHandleVerifier [0x0x7ff7a0daf528+11256]
+	BaseThreadInitThunk [0x0x7fffdc89e8d7+23]
+	RtlUserThreadStart [0x0x7fffde4bc34c+44]
+
+2025-06-15 20:46:59,202 - BehaveFramework - INFO - Finished Scenario: Successful login with valid credentials - Status: Status.failed
+2025-06-15 20:46:59,203 - BehaveFramework - INFO - --- Finished Feature: User Login to Web Application ---
+2025-06-15 20:46:59,204 - BehaveFramework - INFO - --- Starting Feature: Web UI form submission ---
+2025-06-15 20:46:59,204 - BehaveFramework - INFO - Starting Scenario: Fill and submit a form
+2025-06-15 20:47:00,653 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:47:00,655 - BehaveFramework.BrowserUtils - INFO - Opening URL: https://demoqa.com/text-box
+2025-06-15 20:47:04,784 - BehaveFramework.BrowserUtils - INFO - Entered text 'Jagriti Singh' into ('id', 'userName')
+2025-06-15 20:47:05,164 - BehaveFramework.BrowserUtils - INFO - Entered text 'jagriti@example.com' into ('id', 'userEmail')
+2025-06-15 20:47:05,508 - BehaveFramework.BrowserUtils - INFO - Entered text '123 Maple Street' into ('id', 'currentAddress')
+2025-06-15 20:47:05,810 - BehaveFramework.BrowserUtils - INFO - Entered text '456 Oak Avenue' into ('id', 'permanentAddress')
+2025-06-15 20:47:05,810 - BehaveFramework.BrowserUtils - INFO - Form fields filled.
+2025-06-15 20:47:05,843 - BehaveFramework.BrowserUtils - INFO - Scrolled to submit button.
+2025-06-15 20:47:07,033 - BehaveFramework.BrowserUtils - INFO - Clicked element: ('id', 'submit')
+2025-06-15 20:47:07,033 - BehaveFramework.BrowserUtils - INFO - Submit button clicked.
+2025-06-15 20:47:07,105 - BehaveFramework.BrowserUtils - INFO - Retrieved confirmation name: 'Name:Jagriti Singh'
+2025-06-15 20:47:09,343 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:47:09,343 - BehaveFramework - INFO - Finished Scenario: Fill and submit a form - Status: Status.passed
+2025-06-15 20:47:13,426 - BehaveFramework - INFO - --- Finished Feature: Web UI form submission ---
+2025-06-15 20:47:13,426 - BehaveFramework - INFO - --- Test Run Finished ---
+2025-06-15 20:47:15,773 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:47:15,773 - BehaveFramework - INFO - Browser closed.
+2025-06-15 20:47:15,774 - BehaveFramework.DBUtils - INFO - Database connection to test_users.db closed.
+2025-06-15 20:47:15,774 - BehaveFramework - INFO - Database connection closed.
+2025-06-15 20:51:38,246 - BehaveFramework - INFO - --- Test Run Started ---
+2025-06-15 20:51:39,895 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:51:39,896 - BehaveFramework - INFO - Browser initialized and ready.
+2025-06-15 20:51:39,896 - BehaveFramework.DBUtils - INFO - Connected to database: test_users.db
+2025-06-15 20:51:39,897 - BehaveFramework.DBUtils - INFO - Ensured 'users' table exists.
+2025-06-15 20:51:39,897 - BehaveFramework.DBUtils - INFO - Attempting to add dummy data to 'users' table.
+2025-06-15 20:51:39,897 - BehaveFramework.DBUtils - INFO - Dummy data added/ensured in 'users' table.
+2025-06-15 20:51:39,897 - BehaveFramework.DBUtils - INFO - Public method create_users_table called.
+2025-06-15 20:51:39,897 - BehaveFramework - INFO - Database initialized and tables ensured.
+2025-06-15 20:51:39,897 - BehaveFramework.APIUtils - INFO - APIUtils initialized with base_url: https://jsonplaceholder.typicode.com
+2025-06-15 20:51:39,898 - BehaveFramework - INFO - API client initialized with base URL: https://jsonplaceholder.typicode.com.
+2025-06-15 20:51:39,898 - BehaveFramework.Pages.LoginPage - INFO - LoginPage object initialized.
+2025-06-15 20:51:39,898 - BehaveFramework - INFO - Page Objects initialized.
+2025-06-15 20:51:39,898 - BehaveFramework - INFO - --- Starting Feature: API GET request validation ---
+2025-06-15 20:51:39,899 - BehaveFramework - INFO - Starting Scenario: Validate JSONPlaceholder GET response
+2025-06-15 20:51:39,899 - BehaveFramework.api_steps - INFO - API endpoint set to: https://jsonplaceholder.typicode.com/posts/1
+2025-06-15 20:51:39,900 - BehaveFramework.APIUtils - INFO - Sending GET request to: https://jsonplaceholder.typicode.com/posts/1 with params: None
+2025-06-15 20:51:39,991 - BehaveFramework.APIUtils - INFO - GET response received. Status: 200
+2025-06-15 20:51:39,991 - BehaveFramework.api_steps - INFO - GET request sent.
+2025-06-15 20:51:39,993 - BehaveFramework - INFO - Finished Scenario: Validate JSONPlaceholder GET response - Status: Status.passed
+2025-06-15 20:51:39,993 - BehaveFramework - INFO - --- Finished Feature: API GET request validation ---
+2025-06-15 20:51:39,994 - BehaveFramework - INFO - --- Starting Feature: Validate data in database ---
+2025-06-15 20:51:39,994 - BehaveFramework - INFO - Starting Scenario: Check if user exists in the database
+2025-06-15 20:51:39,996 - BehaveFramework.DBUtils - INFO - Fetching user by ID: 1
+2025-06-15 20:51:39,997 - BehaveFramework - INFO - Finished Scenario: Check if user exists in the database - Status: Status.passed
+2025-06-15 20:51:39,997 - BehaveFramework - INFO - --- Finished Feature: Validate data in database ---
+2025-06-15 20:51:39,997 - BehaveFramework - INFO - --- Starting Feature: User Login to Web Application ---
+2025-06-15 20:51:39,997 - BehaveFramework - INFO - Starting Scenario: Successful login with valid credentials
+2025-06-15 20:51:39,998 - BehaveFramework.Pages.LoginPage - INFO - Opening URL: https://demoqa.com/login
+2025-06-15 20:51:45,171 - BehaveFramework.Pages.LoginPage - INFO - Successfully opened URL: https://demoqa.com/login
+2025-06-15 20:51:45,172 - BehaveFramework.Pages.LoginPage - INFO - Navigated to Login Page: https://demoqa.com/login
+2025-06-15 20:51:45,172 - BehaveFramework.ui_login_steps - INFO - Navigated to the login page: https://demoqa.com/login
+2025-06-15 20:51:45,173 - BehaveFramework.Pages.LoginPage - INFO - Attempting to log in with username: testuser
+2025-06-15 20:51:45,368 - BehaveFramework.Pages.LoginPage - INFO - Entered text 'testuser' into ('id', 'userName')
+2025-06-15 20:51:45,592 - BehaveFramework.Pages.LoginPage - INFO - Entered text 'Password123!' into ('id', 'password')
+2025-06-15 20:51:45,594 - BehaveFramework.Pages.LoginPage - ERROR - Error clicking element ('id', 'login'): 'LoginPage' object has no attribute 'scroll_to_view'
+2025-06-15 20:51:45,598 - BehaveFramework - INFO - Finished Scenario: Successful login with valid credentials - Status: Status.failed
+2025-06-15 20:51:45,598 - BehaveFramework - INFO - --- Finished Feature: User Login to Web Application ---
+2025-06-15 20:51:45,599 - BehaveFramework - INFO - --- Starting Feature: Web UI form submission ---
+2025-06-15 20:51:45,599 - BehaveFramework - INFO - Starting Scenario: Fill and submit a form
+2025-06-15 20:51:47,234 - BehaveFramework.BrowserUtils - INFO - Chrome WebDriver initialized successfully.
+2025-06-15 20:51:47,235 - BehaveFramework.BrowserUtils - INFO - Opening URL: https://demoqa.com/text-box
+2025-06-15 20:51:49,261 - BehaveFramework.BrowserUtils - INFO - Entered text 'Jagriti Singh' into ('id', 'userName')
+2025-06-15 20:51:49,505 - BehaveFramework.BrowserUtils - INFO - Entered text 'jagriti@example.com' into ('id', 'userEmail')
+2025-06-15 20:51:50,071 - BehaveFramework.BrowserUtils - INFO - Entered text '123 Maple Street' into ('id', 'currentAddress')
+2025-06-15 20:51:50,518 - BehaveFramework.BrowserUtils - INFO - Entered text '456 Oak Avenue' into ('id', 'permanentAddress')
+2025-06-15 20:51:50,519 - BehaveFramework.BrowserUtils - INFO - Form fields filled.
+2025-06-15 20:51:50,554 - BehaveFramework.BrowserUtils - INFO - Scrolled to submit button.
+2025-06-15 20:51:51,694 - BehaveFramework.BrowserUtils - INFO - Clicked element: ('id', 'submit')
+2025-06-15 20:51:51,695 - BehaveFramework.BrowserUtils - INFO - Submit button clicked.
+2025-06-15 20:51:51,783 - BehaveFramework.BrowserUtils - INFO - Retrieved confirmation name: 'Name:Jagriti Singh'
+2025-06-15 20:51:54,070 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:51:54,070 - BehaveFramework - INFO - Finished Scenario: Fill and submit a form - Status: Status.passed
+2025-06-15 20:51:58,169 - BehaveFramework - INFO - --- Finished Feature: Web UI form submission ---
+2025-06-15 20:51:58,171 - BehaveFramework - INFO - --- Test Run Finished ---
+2025-06-15 20:52:00,513 - BehaveFramework.BrowserUtils - INFO - Browser closed successfully.
+2025-06-15 20:52:00,513 - BehaveFramework - INFO - Browser closed.
+2025-06-15 20:52:00,515 - BehaveFramework.DBUtils - INFO - Database connection to test_users.db closed.
+2025-06-15 20:52:00,515 - BehaveFramework - INFO - Database connection closed.

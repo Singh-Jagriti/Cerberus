@@ -18,7 +18,7 @@ def step_impl(context):
     # Let's open it directly for simplicity, assuming context.browser is BrowserUtils
     # And BrowserUtils has a self.driver for opening.
     url = f"{context.login_page.BASE_UI_URL}/text-box" # Reusing BASE_UI_URL from LoginPage
-    context.browser.driver.get(url) # Using context.browser.driver directly
+    context.browser_utils.driver.get(url)  # Using context.browser_utils.driver# Using context.browser.driver directly
     ui_logger.info(f"Opened URL: {url}")
 
 
