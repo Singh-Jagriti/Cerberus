@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="254e8bec-1f33-4774-b55a-7c696cf32a4c" name="Changes" comment="Fix UI login and form submission tests, stabilize all features">
-      <change afterPath="$PROJECT_DIR$/features/steps/ui_playwright_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/ui_playwright_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_playwright_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/playwright_form_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/playwright_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/ui_login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/ui_login_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/ui_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/ui_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
